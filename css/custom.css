@@ -1,0 +1,23 @@
+ .beranda{
+    font-size:13px;
+    font-family:'MS Gothic';
+}
+ .arsdev{
+     font-family:'MS Gothic';
+     font-size:25px;
+     text-transform:lowercase;
+ }
+
+ 
+.ytResponsive{z-index:9999;top:0;border:5px solid white;box-sizing:border-box;border-radius:2px}
+.ytResponsive-iframe{display:block;height:100%;width:100%;border:0}
+.ytResponsive-overlay{z-index:9998;background:#000;opacity:0.8}
+.ytResponsive-close{position:absolute;top:0;right:0;border:0;cursor:pointer;background:white;font-weight:bold;padding:7px 8px}
+.ytResponsive-close.warp::before,.ytResponsive-close.warp::after{border-radius:120% 0}
+.ytResponsive-close.thick::before,.ytResponsive-close.thick::after{height:3px;margin-top:-2px}
+.ytResponsive-close:before,.ytResponsive-close:after{content:'';position:absolute;height:2px;width:100%;top:50%;left:0;margin-top:-1px;background:#000}
+.ytResponsive-close:before{-webkit-transform:rotate(47deg);-moz-transform:rotate(47deg);-ms-transform:rotate(47deg);-o-transform:rotate(47deg);transform:rotate(47deg)}
+.ytResponsive-close:after{-webkit-transform:rotate(-43deg);-moz-transform:rotate(-43deg);-ms-transform:rotate(-43deg);-o-transform:rotate(-35deg);transform:rotate(-43deg)}
+a.playvid,button.playvid{padding:7px 8px;background:red;color:white!important;text-decoration:none;font-size:16px;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);text-transform:uppercase;margin:2%;border-radius:3px;font-family:'Open Sans',sans-serif}
+button.playvid{cursor:pointer;border:none}
+ 
